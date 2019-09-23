@@ -29,5 +29,5 @@ hash[key] +=1
 else 
 hash[key] =1 
 end
-return hash[key]
+ hash[key]
 end
