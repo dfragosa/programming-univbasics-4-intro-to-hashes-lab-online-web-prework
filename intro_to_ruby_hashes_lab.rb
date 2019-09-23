@@ -25,5 +25,6 @@ end
 
 def update_counting_hash(hash, key)
   hash[:key]
+  hash[:key] = "new_key"
    
 end
