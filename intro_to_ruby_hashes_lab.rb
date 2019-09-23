@@ -24,9 +24,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash[:key]
-  hash[:key] = "new_key" 
-  hash[:new_key] = 1
-  
-   
+  hash[key]
+  hash[key] = "new_key" 
+  hash[new_key] = 1
 end
